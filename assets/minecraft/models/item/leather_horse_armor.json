@@ -1,0 +1,17 @@
+{
+    "parent":"item/generated",
+    "textures": {
+        "layer0":"item/leather_horse_armor"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data":1}, "model":"custommobs:moobloom/head"},
+        {"predicate": {"custom_model_data":2}, "model":"custommobs:moobloom/flower2"},
+        {"predicate": {"custom_model_data":3}, "model":"custommobs:moobloom/flower3"},
+        {"predicate": {"custom_model_data":4}, "model":"custommobs:moobloom/flower4"},
+        {"predicate": {"custom_model_data":5}, "model":"custommobs:moobloom/body"},
+        {"predicate": {"custom_model_data":6}, "model":"custommobs:moobloom/leg1"},
+        {"predicate": {"custom_model_data":7}, "model":"custommobs:moobloom/leg2"},
+        {"predicate": {"custom_model_data":8}, "model":"custommobs:moobloom/leg3"},
+        {"predicate": {"custom_model_data":9}, "model":"custommobs:moobloom/leg4"}
+    ]
+}
