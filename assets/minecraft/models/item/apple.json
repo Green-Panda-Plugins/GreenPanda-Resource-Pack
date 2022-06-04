@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/apple"
+    },
+
+    "overrides": [
+        { "predicate": {"custom_model_data": 0}, "model": "item/apple"},
+        { "predicate": {"custom_model_data": 4007}, "model": "item/iron_apple"},
+        { "predicate": {"custom_model_data": 4008}, "model": "item/copper_apple"},
+        { "predicate": {"custom_model_data": 4009}, "model": "item/amethyst_apple"}
+    ]
+}
