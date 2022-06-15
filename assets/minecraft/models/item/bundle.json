@@ -1,0 +1,41 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/bundle"
+    },
+    "overrides": [
+		{"predicate": {"custom_model_data": 20500},"model": "item/white_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20500}, "model": "item/white_bundle_filled" },
+		{"predicate": {"custom_model_data": 20501},"model": "item/orange_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20501}, "model": "item/orange_bundle_filled" },
+		{"predicate": {"custom_model_data": 20502},"model": "item/magenta_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20502}, "model": "item/magenta_bundle_filled" },
+		{"predicate": {"custom_model_data": 20503},"model": "item/light_blue_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20503}, "model": "item/light_blue_bundle_filled" },
+		{"predicate": {"custom_model_data": 20504},"model": "item/yellow_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20504}, "model": "item/yellow_bundle_filled" },
+		{"predicate": {"custom_model_data": 20505},"model": "item/lime_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20505}, "model": "item/lime_bundle_filled" },
+		{"predicate": {"custom_model_data": 20506},"model": "item/pink_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20506}, "model": "item/pink_bundle_filled" },
+		{"predicate": {"custom_model_data": 20507},"model": "item/gray_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20507}, "model": "item/gray_bundle_filled" },
+		{"predicate": {"custom_model_data": 20508},"model": "item/silver_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20508}, "model": "item/silver_bundle_filled" },
+		{"predicate": {"custom_model_data": 20509},"model": "item/cyan_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20509}, "model": "item/cyan_bundle_filled" },
+		{"predicate": {"custom_model_data": 20510},"model": "item/purple_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20510}, "model": "item/purple_bundle_filled" },
+		{"predicate": {"custom_model_data": 20511},"model": "item/blue_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20511}, "model": "item/blue_bundle_filled" },
+		{"predicate": {"custom_model_data": 20512},"model": "item/brown_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20512}, "model": "item/brown_bundle_filled" },
+		{"predicate": {"custom_model_data": 20513},"model": "item/green_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20513}, "model": "item/green_bundle_filled" },
+		{"predicate": {"custom_model_data": 20514},"model": "item/red_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20514}, "model": "item/red_bundle_filled" },
+		{"predicate": {"custom_model_data": 20515},"model": "item/black_bundle"},
+		{"predicate": { "filled": 0.0000001,"custom_model_data": 20515}, "model": "item/black_bundle_filled" }
+		
+    ]
+}
