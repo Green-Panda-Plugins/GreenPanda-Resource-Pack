@@ -1,12 +1,12 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "minecraft:item/ender_eye"
-    },
-    "overrides": [
-        {"predicate": {"custom_model_data":206050}, "model":"item/magic_mirror"},
-        {"predicate": {"custom_model_data":206051}, "model":"item/magic_mirror_chipped"},
-        {"predicate": {"custom_model_data":206052}, "model":"item/magic_mirror_damaged"},
-        {"predicate": {"custom_model_data":206053}, "model":"item/magic_mirror_destroyed"}
-    ]
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/ender_eye"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 206050}, "model": "item/magic_mirror"},
+    {"predicate": {"custom_model_data": 206051}, "model": "item/magic_mirror_chipped"},
+    {"predicate": {"custom_model_data": 206052}, "model": "item/magic_mirror_damaged"},
+    {"predicate": {"custom_model_data": 206053}, "model": "item/magic_mirror_destroyed"}
+  ]
 }
