@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "minecraft:item/oxidized_copper_wrench"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/oxidized_copper_wrench"
+  }
 }

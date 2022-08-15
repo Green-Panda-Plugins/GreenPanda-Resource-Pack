@@ -1,18 +1,87 @@
 {
-    "parent":"item/generated",
+    "data": 13,
+    "parent": "item/generated",
     "textures": {
-        "layer0":"item/leather_horse_armor"
+        "layer0": "item/leather_horse_armor"
     },
     "overrides": [
-        {"predicate": {"custom_model_data":1001}, "model":"custommobs:moobloom/head"},
-        {"predicate": {"custom_model_data":1002}, "model":"custommobs:moobloom/flower2"},
-        {"predicate": {"custom_model_data":1003}, "model":"custommobs:moobloom/flower3"},
-        {"predicate": {"custom_model_data":1004}, "model":"custommobs:moobloom/flower4"},
-        {"predicate": {"custom_model_data":1005}, "model":"custommobs:moobloom/body"},
-        {"predicate": {"custom_model_data":1006}, "model":"custommobs:moobloom/leg1"},
-        {"predicate": {"custom_model_data":1007}, "model":"custommobs:moobloom/leg2"},
-        {"predicate": {"custom_model_data":1008}, "model":"custommobs:moobloom/leg3"},
-        {"predicate": {"custom_model_data":1009}, "model":"custommobs:moobloom/leg4"},
-        {"predicate": {"custom_model_data":2001}, "model":"custommobs:mosquito/body"}
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "modelengine:moobloom/head"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "modelengine:moobloom/flower2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "modelengine:moobloom/flower3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "modelengine:moobloom/flower4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "modelengine:moobloom/body"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "modelengine:moobloom/leg1"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "modelengine:moobloom/leg2"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "modelengine:moobloom/leg3"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "modelengine:moobloom/leg4"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "modelengine:mosquito/left_wing"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "modelengine:mosquito/right_wing"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "modelengine:mosquito/abdomen"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "modelengine:mosquito/torso"
+        }
     ]
 }
