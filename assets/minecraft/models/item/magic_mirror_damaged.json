@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "minecraft:item/magic_mirror_damaged"
-    }
+  "parent": "item/magic_mirror_generated",
+  "textures": {
+    "layer0": "item/magic_mirror_damaged"
   }
+}
