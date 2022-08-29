@@ -4,6 +4,10 @@
     "layer0": "minecraft:item/wooden_hoe"
   },
   "overrides": [
-    {"predicate": {"custom_model_data":207001}, "model":"item/faction_key"}
+    {"predicate": {"custom_model_data":207001}, "model":"item/faction_key"},
+    {"predicate": {"custom_model_data": 206050}, "model": "item/magic_mirror"},
+    {"predicate": {"custom_model_data": 206051}, "model": "item/magic_mirror_chipped"},
+    {"predicate": {"custom_model_data": 206052}, "model": "item/magic_mirror_damaged"},
+    {"predicate": {"custom_model_data": 206053}, "model": "item/magic_mirror_destroyed"}
   ]
 }
