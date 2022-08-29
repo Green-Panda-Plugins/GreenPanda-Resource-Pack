@@ -59,7 +59,7 @@ jobs:
         with:
           name: Pack Files
           path: |
-            staging/target/packaged/geyser_resources.mcpack
-            staging/target/packaged/geyser_addon.mcaddon
-            staging/target/geyser_mappings.json
-            staging/config.json
+            java2bedrock.sh/staging/target/packaged/geyser_resources.mcpack
+            java2bedrock.sh/staging/target/packaged/geyser_addon.mcaddon
+            java2bedrock.sh/staging/target/geyser_mappings.json
+            java2bedrock.sh/staging/config.json
