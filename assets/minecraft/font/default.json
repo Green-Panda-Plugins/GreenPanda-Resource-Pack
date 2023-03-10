@@ -1,0 +1,29 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "minecraft:negative_space.ttf",
+            "shift": [0.0, 0.0],
+            "size": 10.0,
+            "oversample": 1.0
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:gui/title/greenpanda_left.png",
+            "height": 64,
+            "ascent": 24,
+            "chars": [
+                "\uE001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:gui/title/greenpanda_right.png",
+            "height": 64,
+            "ascent": 24,
+            "chars": [
+                "\uE002"
+            ]
+        }
+    ]
+}

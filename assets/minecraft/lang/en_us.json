@@ -1,0 +1,16 @@
+{
+    "language.name": "English (GreenPanda)",
+    "menu.game": "\uE001\uF801\uE002",
+    "menu.disconnect": "I’m Outta Here!",
+    "menu.returnToMenu": "I’m Outta Here!",
+    "menu.returnToGame": "Continue Playing!",
+    "menu.playerReporting": "Report",
+    "options.difficulty": "Mode",
+    "options.difficulty.online": "Mode",
+    "options.difficulty.peaceful": "Too Young to Die",
+    "options.difficulty.easy": "Not Too Rough",
+    "options.difficulty.normal": "Hurt Me Plenty",
+    "options.difficulty.hard": "Ultra-Violence",
+    "options.difficulty.hardcore": "Nightmare!",
+    "greenpanda.item.hats.farmerhat": "Farmer's Hat"
+}
