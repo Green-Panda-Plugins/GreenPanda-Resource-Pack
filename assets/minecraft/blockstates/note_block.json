@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "instrument=harp,note=0,powered=false": {
+      "model": "minecraft:block/note_block"
+    },
+    "instrument=banjo,note=0,powered=false": {
+      "model": "minecraft:block/blue_nether_bricks"
+    },
+    "instrument=banjo,note=0,powered=true": {
+      "model": "minecraft:block/warped_stone_bricks"
+    }
+  }
+}

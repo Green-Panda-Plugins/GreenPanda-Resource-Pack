@@ -2,7 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "hats/farmer_hat"
+		"0": "hats/farmer_hat",
+		"1": "item/farmer_hat",
+		"particle": "item/farmer_hat"
 	},
 	"elements": [
 		{
@@ -27,6 +29,18 @@
 				"up": {"uv": [8, 8, 0, 0], "texture": "#0"},
 				"down": {"uv": [8, 0, 0, 8], "texture": "#0"}
 			}
+		},
+		{
+			"from": [6, -0.0625, 6],
+			"to": [10, -0.0625, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 0], "rotation": 180, "texture": "#missing"},
+				"east": {"uv": [0, 0, 0, 8], "rotation": 90, "texture": "#missing"},
+				"south": {"uv": [0, 0, 8, 0], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 8], "rotation": 270, "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1"}
+			}
 		}
 	],
 	"gui_light": "front",
@@ -35,14 +49,15 @@
 			"translation": [0, 4.25, 0]
 		},
 		"gui": {
-			"translation": [0, 5.25, 0]
+			"rotation": [-90, 180, 0],
+			"scale": [4, 4, 4]
 		},
 		"head": {
 			"translation": [0, 14.5, 0],
 			"scale": [1.61, 1.61, 1.61]
 		},
 		"fixed": {
-			"translation": [0, 5.25, 0]
+			"translation": [0, 0, 8]
 		}
 	},
 	"groups": [
@@ -51,6 +66,12 @@
 			"origin": [0, 0, 0],
 			"color": 0,
 			"children": [0, 1]
+		},
+		{
+			"name": "gui",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [2]
 		}
 	]
 }
