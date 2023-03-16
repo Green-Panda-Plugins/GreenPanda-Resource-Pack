@@ -5,6 +5,7 @@
         "layer1": "item/leather_helmet_overlay"
     },
     "overrides": [
-        { "predicate": {"custom_model_data": 999001}, "model": "item/farmer_hat"}
+        { "predicate": {"custom_model_data": 999001}, "model": "item/farmer_hat"},
+        { "predicate": {"custom_model_data": 999002}, "model": "item/witch_hat"}
     ]
 }
