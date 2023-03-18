@@ -35,8 +35,8 @@ void main() {
 	
 	if (vertexDistance >= 800) { // If it's in a GUI, figure out if it's the paper doll or an inventory slot.
 	
-		if (check_alpha(alpha, 254.0) && zpos < 2.0) discard; // If it's far back enough on the z-axis, it's usually in the paper doll's hand. Max set to 2 because nothing should be bigger than that.
-		else if (check_alpha(alpha, 253.0) && zpos >= 2.0) discard; // If it's close enough on the z-axis, it's usually in an inventory slot.
+		if (check_alpha(alpha, 254.0) && -zpos < 2.0) discard; // If it's far back enough on the z-axis, it's usually in the paper doll's hand. Max set to 2 because nothing should be bigger than that.
+		else if (check_alpha(alpha, 253.0) && -zpos >= 2.0) discard; // If it's close enough on the z-axis, it's usually in an inventory slot.
 		
 	}
 	
