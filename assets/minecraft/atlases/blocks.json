@@ -4,6 +4,11 @@
             "type": "directory",
             "source": "hats",
             "prefix": "hats/"
+        },
+        {
+            "type": "directory",
+            "source": "entity/custom",
+            "prefix": "entity/"
         }
     ]
 }

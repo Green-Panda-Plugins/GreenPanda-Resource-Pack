@@ -1,0 +1,27 @@
+{
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "greenpanda:entity/target_dummy"
+	},
+	"elements": [
+		{
+			"name": "leftArm",
+			"from": [0, -12, -2],
+			"to": [4, 0, 2],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [11, 5, 12, 8], "texture": "#1"},
+				"east": {"uv": [10, 5, 11, 8], "texture": "#1"},
+				"south": {"uv": [13, 5, 14, 8], "texture": "#1"},
+				"west": {"uv": [12, 5, 13, 8], "texture": "#1"},
+				"up": {"uv": [11, 5, 12, 4], "texture": "#1"},
+				"down": {"uv": [12, 4, 13, 5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"translation": [8, 8, 8]
+		}
+	}
+}

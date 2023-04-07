@@ -7,11 +7,13 @@
     "menu.playerReporting": "Report",
     "options.difficulty": "Mode",
     "options.difficulty.online": "Mode",
-    "options.difficulty.peaceful": "Too Young to Die",
+    "options.difficulty.peaceful": "I'm Too Young to Die",
     "options.difficulty.easy": "Not Too Rough",
     "options.difficulty.normal": "Hurt Me Plenty",
     "options.difficulty.hard": "Ultra-Violence",
     "options.difficulty.hardcore": "Nightmare!",
     "greenpanda.item.hats.farmerhat": "Sun Hat",
-    "greenpanda.item.hats.witchhat": "Witch Hat"
+    "greenpanda.item.hats.witchhat": "Witch Hat",
+    "greenpanda.gui.customitem.title": "Custom Items",
+    "greenpanda.gui.pagenumber": "Page %s / %s"
 }
