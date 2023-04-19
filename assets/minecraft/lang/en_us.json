@@ -1,10 +1,10 @@
 {
     "language.name": "English (GreenPanda)",
     "menu.game": "\uE001\uF801\uE002",
-    "menu.disconnect": "I’m Outta Here!",
-    "menu.returnToMenu": "I’m Outta Here!",
-    "menu.returnToGame": "Continue Playing!",
     "menu.playerReporting": "Report",
+    "menu.returnToGame": "Continue Playing!",
+    "menu.returnToMenu": "I’m Outta Here!",
+    "menu.disconnect": "I’m Outta Here!",
     "options.difficulty": "Mode",
     "options.difficulty.online": "Mode",
     "options.difficulty.peaceful": "I'm Too Young to Die",
@@ -12,8 +12,13 @@
     "options.difficulty.normal": "Hurt Me Plenty",
     "options.difficulty.hard": "Ultra-Violence",
     "options.difficulty.hardcore": "Nightmare!",
+    "greenpanda.gui.customitem.title": "Custom Items",
+    "greenpanda.gui.pagenumber": "Page %s / %s",
+    "greenpanda.item.playerCompass": "Player Compass",
     "greenpanda.item.hats.farmerhat": "Sun Hat",
     "greenpanda.item.hats.witchhat": "Witch Hat",
-    "greenpanda.gui.customitem.title": "Custom Items",
-    "greenpanda.gui.pagenumber": "Page %s / %s"
+    "greenpanda.playerCompass.actionBar.playerNotFound": "That player couldn't be found!",
+    "greenpanda.playerCompass.actionBar.trackingPlayer": "Now tracking %s",
+    "greenpanda.playerCompass.actionBar.noTrackablePlayers": "There are currently no players to track",
+    "greenpanda.playerCompass.gui.title": "Track Player"
 }

@@ -1,8 +1,21 @@
 {
+    "language.name": "French (GreenPanda)",
     "menu.game": "\uE001\uF801\uE002",
-    "menu.disconnect": "Je me tire !",
-    "menu.returnToMenu": "Je me tire !",
     "menu.returnToGame": "Continuez à jouer !",
-    "greenpanda.item.hats.farmerhat": "Chapeau en osier d'agriculteur",
-    "greenpanda.item.hats.witchhat": "Chapeau de sorcière"
+    "menu.returnToMenu": "Je me casse !",
+    "menu.disconnect": "Je me casse !",
+    "options.difficulty.peaceful": "Je suis trop jeune pour partir",
+    "options.difficulty.easy": "Pas trop rugueux",
+    "options.difficulty.normal": "Me blesse un peu",
+    "options.difficulty.hard": "Ultra-Violence",
+    "options.difficulty.hardcore": "Cauchemar!",
+    "greenpanda.gui.customitem.title": "Objets personnalisés",
+    "greenpanda.gui.pagenumber": "Page %s sur %s",
+    "greenpanda.item.playerCompass": "Boussole de recherche de joueur",
+    "greenpanda.item.hats.farmerhat": "Chapeau de paille",
+    "greenpanda.item.hats.witchhat": "Chapeau de sorcière",
+    "greenpanda.playerCompass.actionBar.playerNotFound": "Ce joueur est introuvable !",
+    "greenpanda.playerCompass.actionBar.trackingPlayer": "Vous suivez %s",
+    "greenpanda.playerCompass.actionBar.noTrackablePlayers": "Il n'y a aucun joueur à suivre",
+    "greenpanda.playerCompass.gui.title": "Suivre les joueurs"
 }
