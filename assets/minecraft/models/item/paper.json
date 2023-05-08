@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/paper"
+    },
+    "overrides": [
+        { "predicate": {"custom_model_data": 2}, "model": "minecraft:block/null" },
+        { "predicate": {"custom_model_data": 700}, "model": "minecraft:block/blue_nether_bricks" },
+        { "predicate": {"custom_model_data": 701}, "model": "minecraft:block/warped_stone_bricks" }
+    ]
+}

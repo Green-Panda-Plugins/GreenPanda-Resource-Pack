@@ -1,0 +1,66 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"outline": "block/beacon_outline",
+		"particle": "block/glass",
+		"glass": "block/glass",
+		"obsidian": "block/obsidian",
+		"beacon": "block/beacon"
+	},
+	"elements": [
+		{
+			"name": "Glass shell",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#glass"}
+			}
+		},
+		{
+			"name": "Obsidian base",
+			"from": [0.05, 0.05, 0.05],
+			"to": [15.95, 2.95, 15.95],
+			"faces": {
+				"north": {"uv": [0, 13, 16, 15.9], "texture": "#obsidian"},
+				"east": {"uv": [0, 13, 16, 15.9], "texture": "#obsidian"},
+				"south": {"uv": [0, 13, 16, 15.9], "texture": "#obsidian"},
+				"west": {"uv": [0, 13, 16, 15.9], "texture": "#obsidian"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#obsidian"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#obsidian"}
+			}
+		},
+		{
+			"name": "Inner beacon texture",
+			"from": [3, 4, 3],
+			"to": [13, 14, 13],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"east": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"south": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"west": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#beacon"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#beacon"}
+			}
+		},
+		{
+			"name": "Inner beacon outline",
+			"from": [14, 15, 14],
+			"to": [2, 3, 2],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 12, 12], "texture": "#outline"},
+				"east": {"uv": [0, 0, 12, 12], "texture": "#outline"},
+				"south": {"uv": [0, 0, 12, 12], "texture": "#outline"},
+				"west": {"uv": [0, 0, 12, 12], "texture": "#outline"},
+				"up": {"uv": [0, 0, 12, 12], "texture": "#outline"},
+				"down": {"uv": [0, 0, 12, 12], "texture": "#outline"}
+			}
+		}
+	]
+}

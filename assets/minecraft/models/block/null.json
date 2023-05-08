@@ -1,0 +1,21 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "particle": "#null",
+        "null": "minecraft:block/null"
+    },
+    "elements": [
+        {   
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#null", "cullface": "down" },
+                "up":    { "texture": "#null", "cullface": "up" },
+                "north": { "uv": [16, 0, 0, 16], "texture": "#null", "cullface": "north" },
+                "south": { "uv": [16, 0, 0, 16], "texture": "#null", "cullface": "south" },
+                "west":  { "texture": "#null", "cullface": "west" },
+                "east":  { "texture": "#null", "cullface": "east" }
+            }
+        }
+    ]
+}

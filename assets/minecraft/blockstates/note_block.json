@@ -1,7 +1,10 @@
 {
   "variants": {
-    "instrument=harp,note=0,powered=false": {
+    "instrument=harp,note=0": {
       "model": "minecraft:block/note_block"
+    },
+    "instrument=harp,note=1,powered=false": {
+      "model": "minecraft:block/null"
     },
     "instrument=banjo,note=0,powered=false": {
       "model": "minecraft:block/blue_nether_bricks"

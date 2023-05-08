@@ -1,5 +1,7 @@
 {
     "language.name": "French (GreenPanda)",
+    "deathScreen.title": "ＶＯＵＳ ＥＴＥＳ ＭＯＲＴ（Ｅ） ！",
+    "deathScreen.title.hardcore": "ＧＡＭＥ ＯＶＥＲ ！",
     "menu.game": "\uE001\uF801\uE002",
     "menu.returnToGame": "Continuez à jouer !",
     "menu.returnToMenu": "Je me casse !",

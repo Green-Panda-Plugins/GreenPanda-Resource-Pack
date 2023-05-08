@@ -1,5 +1,7 @@
 {
     "language.name": "English (GreenPanda)",
+    "deathScreen.title": "ＹＯＵ ＤＩＥＤ！",
+    "deathScreen.title.hardcore": "ＧＡＭＥ ＯＶＥＲ！",
     "menu.game": "\uE001\uF801\uE002",
     "menu.playerReporting": "Report",
     "menu.returnToGame": "Continue Playing!",
@@ -12,6 +14,7 @@
     "options.difficulty.normal": "Hurt Me Plenty",
     "options.difficulty.hard": "Ultra-Violence",
     "options.difficulty.hardcore": "Nightmare!",
+    "greenpanda.blocks.null": "Block of Null",
     "greenpanda.gui.customitem.title": "Custom Items",
     "greenpanda.gui.pagenumber": "Page %s / %s",
     "greenpanda.item.playerCompass": "Player Compass",
