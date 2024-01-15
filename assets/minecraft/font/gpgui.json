@@ -9,11 +9,59 @@
         },
         {
             "type": "bitmap",
-            "file": "minecraft:gui/greenpanda/factions/faction_main.png",
+            "file": "greenpanda:gui/factions/faction_main.png",
             "ascent": 13,
             "height": 256,
             "chars": [
                 "\uE100"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "greenpanda:gui/minecart/furnace_minecart_0.png",
+            "ascent": 13,
+            "height": 64,
+            "chars": [
+                "\uE200", 
+                "\uE201", 
+                "\uE202", 
+                "\uE203"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "greenpanda:gui/minecart/furnace_minecart_1.png",
+            "ascent": 13,
+            "height": 64,
+            "chars": [
+                "\uE204", 
+                "\uE205", 
+                "\uE206", 
+                "\uE207"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "greenpanda:gui/minecart/furnace_minecart_2.png",
+            "ascent": 13,
+            "height": 64,
+            "chars": [
+                "\uE208", 
+                "\uE209", 
+                "\uE20A", 
+                "\uE20B"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "greenpanda:gui/minecart/furnace_minecart_3.png",
+            "ascent": 13,
+            "height": 64,
+            "chars": [
+                "\uE20C", 
+                "\uE20D", 
+                "\uE20E", 
+                "\uE20F"
             ]
         }
     ]
